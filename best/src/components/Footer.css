@@ -75,11 +75,18 @@
     position: relative;
 }
 
-.footer-bottom .facebook-icon {
+.footer-bottom .social-icons {
     position: absolute;
     right: 20px;
     top: 60%;
     transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-bottom .facebook-icon,
+.footer-bottom .whatsapp-icon {
     background-color: #1877f2;
     color: white;
     padding: 7px;
@@ -87,8 +94,27 @@
     font-size: 16px;
     text-decoration: none;
     transition: background-color 0.3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer-bottom .facebook-icon:hover {
     background-color: #0d65d9;
+}
+
+.footer-bottom .whatsapp-icon {
+    background-color: #25D366;
+}
+
+.footer-bottom .whatsapp-icon:hover {
+    background-color: #1ebe5d;
+}
+
+@media (max-width: 768px) {
+    .footer-bottom .social-icons {
+        position: static;
+        transform: none;
+        margin-top: 20px;
+    }
 }
