@@ -1,0 +1,143 @@
+.servicii-container {
+    width: 100%;
+    height: 100vh;
+    padding-top: 150px;    /* rezervă spațiu pentru navbarul de sus */
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #0d1b2a;
+}
+
+.servicii-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #0d1b2a;
+}
+
+.servicii-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto 80px auto; /* centru + spațiu jos */
+    justify-items: center; /* aliniază fiecare card pe centru */
+}
+
+
+.serviciu-card {
+    background: #f9fafb;
+    border-radius: 12px;
+    padding: 30px 25px;
+    box-shadow: 0 4px 15px rgba(13, 27, 42, 0.1);
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+    cursor: default;
+}
+
+.serviciu-card:hover {
+    box-shadow: 0 6px 25px rgba(13, 27, 42, 0.2);
+}
+
+.serviciu-icon {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    color: #0077cc;
+}
+
+.serviciu-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #0d1b2a;
+    font-weight: 600;
+}
+
+.serviciu-description {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.5;
+}
+
+.servicii-cta {
+    text-align: center;
+    background: #0077cc;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    max-width: 800px;
+    margin: 0 auto 80px auto;
+}
+
+@media (max-width: 768px) {
+    .servicii-title {
+        font-size: 2.2rem;
+    }
+
+    .servicii-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .servicii-cta {
+        font-size: 1rem;
+        padding: 20px 15px;
+    }
+}
+
+.despre-section {
+    max-width: 1200px;
+    margin: 120px auto 80px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.despre-text {
+    flex: 1;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+}
+
+.despre-image {
+    flex: 1;
+    max-width: 500px;
+}
+
+.link-card {
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s ease;
+}
+
+.link-card:hover {
+    transform: scale(1.02);
+}
+
+.serviciu-link {
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: 500;
+    color: #0077cc;
+    font-size: 1rem;
+    transition: color 0.2s ease;
+}
+
+.serviciu-link:hover {
+    color: #004a99;
+}
+
+.serviciu-section {
+    max-width: 1200px;
+    margin: 60px auto 60px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}

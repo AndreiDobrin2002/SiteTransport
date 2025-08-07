@@ -1,0 +1,42 @@
+.galerie-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding-top: 150px;    /* rezervă spațiu pentru navbarul de sus */
+    box-sizing: border-box;
+}
+
+.galerie-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #0d1b2a;
+}
+
+.galerie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    gap: 20px;
+    justify-content: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-bottom: 30px;  /* rezervă spațiu pentru navbarul de jos */
+}
+
+.galerie-item {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.galerie-item:hover {
+    transform: scale(1.03);
+}
+
+.galerie-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}

@@ -1,0 +1,50 @@
+.service-cta {
+    background-color: #0d1b2a;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service-cta-text {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+}
+
+.service-cta-button {
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.service-cta-button:hover {
+    background-color: white;
+    color: #0d1b2a;
+}
+
+.service-cta-button .arrow {
+    font-size: 1.1rem;
+    transition: transform 0.3s ease;
+}
+
+.service-cta-button:hover .arrow {
+    transform: translateX(5px);
+}
+
+@media (max-width: 768px) {
+    .service-cta {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

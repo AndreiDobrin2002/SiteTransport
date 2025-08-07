@@ -1,0 +1,110 @@
+.acasa-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding-top: 0px;    /* rezervă spațiu pentru navbarul de sus */
+    padding-bottom: 60px;  /* rezervă spațiu pentru navbarul de jos */
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+.image-display {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease-in-out;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar jos */
+.bottom-navbar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 0.5rem 0;
+}
+
+/* Buton individual */
+.nav-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.3rem 0.5rem;
+    transition: transform 0.2s;
+}
+
+.nav-button:hover {
+    transform: scale(1.1);
+}
+
+.nav-button img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 4px;
+}
+
+.nav-button span {
+    font-size: 0.8rem;
+}
+
+/* Buton activ */
+.nav-button.active {
+    color: #00b4d8;
+}
+
+.firma-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 2rem;
+    background-color: #f8f9fa;
+    color: #1a1a1a;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.firma-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.firma-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #0d1b2a;
+}
+
+.firma-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.firma-imagine {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.firma-imagine img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
