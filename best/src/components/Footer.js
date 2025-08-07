@@ -35,7 +35,7 @@ const Footer = () => {
                     <h4>Contact</h4>
                     <p>📍 Bulevardul Unirii 20,<br />Focșani 620172, România</p>
                     <p>📞 <a href="tel:+40737553140">+40 737 553 140</a></p>
-                    <p>✉️ <a href="mailto:office@dejtrans.ro">office@dejtrans.ro</a></p>
+                    <p>✉️ <a href="mailto:andreidobrin12@gmail.com">andreidobrin12@gmail.com</a></p>
                 </div>
             </div>
 

@@ -24,7 +24,7 @@ export default function MapSection() {
                             📞 <a href="tel:+40737553140" className="contact-link">+40 737 553 140</a>
                         </p>
                         <p>
-                            ✉️ <a href="mailto:office@dejtrans.ro" className="contact-link">office@dejtrans.ro</a>
+                            ✉️ <a href="mailto:andreidobrin12@gmail.com" className="contact-link">andreidobrin12@gmail.com</a>
                         </p>
                     </div>
 
