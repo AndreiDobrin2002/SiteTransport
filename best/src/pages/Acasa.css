@@ -55,19 +55,20 @@
 }
 
 .nav-button img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     margin-bottom: 4px;
+    filter: invert(1); /* dacă ai fundal închis poate fi util */
 }
 
 .nav-button span {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 /* Buton activ */
-.nav-button.active {
-    color: #00b4d8;
-}
+/*.nav-button.active {*/
+/*    color: #00b4d8;*/
+/*}*/
 
 .firma-container {
     display: flex;
@@ -108,3 +109,9 @@
     border-radius: 1rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
+
+.nav-button.active img {
+    filter: brightness(0) saturate(100%) invert(64%) sepia(76%) saturate(1367%) hue-rotate(161deg) brightness(93%) contrast(101%);
+}
+
+

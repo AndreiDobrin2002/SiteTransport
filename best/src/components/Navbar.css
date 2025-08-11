@@ -148,6 +148,5 @@
 /* Link activ - subliniere pagina curentă */
 .nav-links li a.active {
     border-bottom: 3px solid #00b4d8;
-
 }
 

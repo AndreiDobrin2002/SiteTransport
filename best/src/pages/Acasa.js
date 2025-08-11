@@ -3,9 +3,9 @@ import img1 from "../assets/img1.jpg";
 import img2 from "../assets/img2.jpg";
 import img3 from "../assets/img3.jpg";
 
-import icon1 from "../assets/logo2.png";
-import icon2 from "../assets/logo2.png";
-import icon3 from "../assets/logo2.png";
+import icon1 from "../assets/iconTruck.png";
+import icon2 from "../assets/iconPeople.png";
+import icon3 from "../assets/warehouse.png";
 
 import firmaImage from "../assets/firma.jpg"; // imaginea despre firmă
 import "./Acasa.css";
@@ -27,6 +27,11 @@ const navItems = [
 export default function Acasa() {
     const [currentImage, setCurrentImage] = useState(0);
 
+    // funcție pentru schimbarea imaginii cu resetarea intervalului
+    const handleImageChange = (index) => {
+        setCurrentImage(index);
+    };
+
     // Auto-play la fiecare 5 secunde
     useEffect(() => {
         const interval = setInterval(() => {
@@ -34,7 +39,7 @@ export default function Acasa() {
         }, 5000);
 
         return () => clearInterval(interval);
-    }, []);
+    }, [currentImage]); // 👈 acum se resetează când se schimbă imaginea
 
     return (
         <>
@@ -48,9 +53,9 @@ export default function Acasa() {
                         <button
                             key={index}
                             className={`nav-button ${currentImage === index ? "active" : ""}`}
-                            onClick={() => setCurrentImage(index)}
+                            onClick={() => handleImageChange(index)}
                         >
-                            <img src={item.icon} alt={`icon-${index}`} />
+                            <img src={item.icon} alt={item.label} className="new-icon-style"/>
                             <span>{item.label}</span>
                         </button>
                     ))}
