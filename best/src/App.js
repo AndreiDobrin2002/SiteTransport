@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 import Navbar from "./components/Navbar";
 import Acasa from "./pages/Acasa";
 import Despre from "./pages/Despre";
@@ -14,6 +15,7 @@ function App() {
     return (
         <Router>
             <Navbar />
+            <ScrollToTop />
             <div className="content" style={{ margin: 0, padding: 0 }}>
                 <Routes>
                     <Route path="/" element={<Acasa />} />
