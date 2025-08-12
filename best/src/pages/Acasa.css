@@ -114,4 +114,9 @@
     filter: brightness(0) saturate(100%) invert(64%) sepia(76%) saturate(1367%) hue-rotate(161deg) brightness(93%) contrast(101%);
 }
 
-
+@media (max-width: 768px) {
+    .bottom-navbar {
+        justify-content: center; /* centrează toate butoanele */
+        gap: 3rem; /* spațiu egal între butoane */
+    }
+}
