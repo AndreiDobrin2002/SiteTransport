@@ -119,4 +119,15 @@
         justify-content: center; /* centrează toate butoanele */
         gap: 3rem; /* spațiu egal între butoane */
     }
+
+    .acasa-container {
+        height: 91vh;
+    }
 }
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .acasa-container {
+        height: 97vh;
+    }
+}
+
