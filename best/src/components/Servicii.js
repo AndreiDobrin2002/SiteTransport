@@ -32,7 +32,7 @@ export default function Servicii() {
                 <div className="underline" />
                 <h2>SERVICIILE NOASTRE</h2>
                 <p>
-                    Cu peste <strong>15 ani experiență</strong> în domeniu, echipa noastră
+                    Cu peste <strong>8 ani experiență</strong> în domeniu, echipa noastră
                     vă poate oferi servicii de cea mai bună calitate precum
                 </p>
             </div>

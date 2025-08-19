@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="footer-column">
                     <img src={logo} alt="Logo DejTrans" className="footer-logo"/>
                     <p className="footer-description">
-                        Best Ride Express este o companie cu peste 15 ani de experiență în transport auto și logistică.
+                        Best Ride Express este o companie cu peste 8 ani de experiență în transport auto și logistică.
                         Oferim servicii de calitate în România și la nivel internațional.
                     </p>
                 </div>

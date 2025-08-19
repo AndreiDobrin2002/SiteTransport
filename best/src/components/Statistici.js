@@ -5,9 +5,9 @@ import { useInView } from "react-intersection-observer";
 
 const statistici = [
     { icon: <FaTruck />, number: 6453, suffix: "+", text: "Vehicule transportate" },
-    { icon: <FaCalendarAlt />, number: 15, suffix: "+", text: "Ani experiență" },
+    { icon: <FaCalendarAlt />, number: 8, suffix: "+", text: "Ani experiență" },
     { icon: <FaUsers />, number: 50, suffix: "+", text: "Subcontractori internaționali" },
-    { icon: <FaWarehouse />, number: 20, text: "Zile termen maxim de încărcare" },
+    { icon: <FaWarehouse />, number: 10, text: "Zile termen maxim de încărcare" },
 ];
 
 export default function Statistici() {

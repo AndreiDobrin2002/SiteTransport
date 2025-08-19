@@ -80,7 +80,7 @@ const Servicii = () => {
                     <p>
                         Experienta echipei noastre si colaborarea cu partenerii nostri ne permit sa realizam trasporturi
                         interne sau internationale,
-                        de oriunde din Europa, cu timp de incarcare inre 1 si maxim 20 de zile, in functie de locatia de
+                        de oriunde din Europa, cu timp de incarcare inre 1 si maxim 10 de zile, in functie de locatia de
                         la care trebuie realizat transportul.
                     </p>
                 </div>

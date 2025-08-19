@@ -81,7 +81,7 @@ export default function Acasa() {
                         ajuta în nevoile dumneavoastră de transport și logistică.
                     </p>
                     <p>
-                        La sfârșitul  anului 2019 am contabilizat un număr de 6453 autovehicule transportate.
+                        La sfârșitul  anului 2024 am contabilizat un număr de 6453 autovehicule transportate.
                         Tratam cu atenție fiecare comanda, căutând soluțiile cele mai rapide și eficiente
                         pentru fiecare client.
                     </p>
