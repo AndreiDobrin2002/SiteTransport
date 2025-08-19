@@ -23,8 +23,8 @@ export default function MapSection() {
                             📞 <a href="tel:+40737553140" className="contact-link">+40 737 553 140</a>
                         </p>
                         <p>
-                            ✉️ <a href="mailto:andreidobrin12@gmail.com"
-                                  className="contact-link">andreidobrin12@gmail.com</a>
+                            ✉️ <a href="mailto:bestrideexpress2017@gmail.com"
+                                  className="contact-link">bestrideexpress2017@gmail.com</a>
                         </p>
                     </div>
 
