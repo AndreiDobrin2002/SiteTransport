@@ -39,7 +39,7 @@ const Intermedieri = () => {
                 <h2>Avantajele colaborării cu noi</h2>
                 <ul>
                     <li>✔️ Comenzi intre 1 si 9 unitati</li>
-                    <li>✔️ Termene de incarcare intre 1 si 20 de zile</li>
+                    <li>✔️ Termene de incarcare intre 1 si 10 de zile</li>
                     <li>✔️ Disponibilitate oriunde in Europa</li>
                     <li>✔️ Preste 50 de subcontractori internationali</li>
                 </ul>
