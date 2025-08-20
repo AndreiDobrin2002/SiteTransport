@@ -35,7 +35,7 @@ const Comanda = () => {
         form.append("Detalii suplimentare", formData.details);
         form.append("_captcha", "false");
 
-        fetch("https://formsubmit.co/4e69155d2c21e04f49b11476115ff76c", {
+        fetch("https://formsubmit.co/69edc200a3fdbadca0f072fcb65f6cbf", {
             method: "POST",
             body: form,
         })

@@ -33,9 +33,9 @@ const Footer = () => {
                 {/* Coloana 3 - Contact */}
                 <div className="footer-column">
                     <h4>Contact</h4>
-                    <p>📍 Bulevardul Unirii 20,<br/>Focșani 620172, România</p>
+                    <p>📍 Bulevardul Unirii 24,<br/>Focșani 620172, România</p>
                     <p>📞 <a href="tel:+40737553140">+40 737 553 140</a></p>
-                    <p>✉️ <a href="mailto:bestrideexpress2017@gmail.com">bestrideexpress2017@gmail.com</a></p>
+                    <p>✉️ <a href="mailto:office@bestrideexpress.ro">office@bestrideexpress.ro</a></p>
                 </div>
             </div>
 

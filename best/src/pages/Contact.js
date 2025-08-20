@@ -24,7 +24,7 @@ const Contact = () => {
         form.append("mesaj", formData.message);
         form.append("_captcha", "false");
 
-        fetch("https://formsubmit.co/4e69155d2c21e04f49b11476115ff76c", {
+        fetch("https://formsubmit.co/0cc1c5905bff6b76ffa042c60e97684c", {
 
             method: "POST",
             body: form,
