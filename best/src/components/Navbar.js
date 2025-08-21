@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../assets/logo2.png";
 import logoScrolled from "../assets/logo.png";
+import GoogleTranslate from "./GoogleTranslate";
 
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -34,7 +35,7 @@ const Navbar = () => {
                     className="logo"
                 />
             </NavLink>
-
+            <GoogleTranslate />
             <button className="burger" onClick={toggleMenu}>
                 <div className={`line ${menuOpen ? "open" : ""}`} />
                 <div className={`line ${menuOpen ? "open" : ""}`} />
@@ -57,6 +58,7 @@ const Navbar = () => {
                 <li><NavLink to="/comanda" onClick={closeMenu}>Comandă</NavLink></li>
                 <li><NavLink to="/contact" onClick={closeMenu}>Contact</NavLink></li>
             </ul>
+
         </nav>
     );
 };
