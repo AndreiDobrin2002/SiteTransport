@@ -13,7 +13,7 @@ const servicii = [
     },
     {
         title: "INTERMEDIERI TRANSPORT AUTO",
-        text: "Oferim clienților noștri servicii de cea mai bună calitate ca rezultat al experienței de peste 15 ani",
+        text: "Oferim clienților noștri servicii de cea mai bună calitate ca rezultat al experienței de peste 8 ani",
         img: img2,
         link: "/intermedieri-transport",
     },
